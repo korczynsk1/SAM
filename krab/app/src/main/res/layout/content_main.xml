@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100px"
+    android:padding="2px"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/id_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:padding="22px"
+        android:text="@string/id_label" />
+
+    <TextView
+        android:id="@+id/content_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/id_label"
+        android:layout_marginTop="25dp"
+        android:text="@string/content_label" />
+
+    <TextView
+        android:id="@+id/id_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="100px"
+        android:layout_toEndOf="@+id/content_label"
+        android:text="@string/id_value" />
+
+    <TextView
+        android:id="@+id/content_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_value"
+        android:layout_alignTop="@+id/content_label"
+        android:text="@string/content_value" />
+
+</RelativeLayout>
